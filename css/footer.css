@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap');
+
+.footer {
+    color: #FFFFFF;
+    font-size: 14px;
+}
+
+.footer .footer-content {
+    background: #154360;
+    padding: 60px 0 30px 0;
+}
+
+.footer .footer-content .footer-info {
+    margin-bottom: 30px;
+}
+
+.footer .footer-content .footer-info h3 {
+    font-size: 28px;
+    margin: 0 0 20px 0;
+    padding: 2px 0 2px 0;
+    line-height: 1;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.footer .footer-content .footer-info h3 span {
+    color: #FFFFFF;
+}
+
+.footer .footer-content .footer-info p {
+    font-size: 14px;
+    line-height: 24px;
+    margin-bottom: 0;
+    font-family: 'Roboto', sans-serif;
+    color: #FFFFFF;
+    font-weight: 500;
+}
+
+.footer .footer-content h4 {
+    font-size: 16px;
+    font-weight: 600;
+    color: #FFFFFF;
+    position: relative;
+    padding-bottom: 12px;
+    margin-bottom: 15px;
+}
+
+.footer .footer-content h4::after {
+    content: '';
+    position: absolute;
+    display: block;
+    width: 20px;
+    height: 2px;
+    background: #FFFFFF;
+    bottom: 0;
+    left: 0;
+}
+
+.footer .footer-content .footer-links {
+    margin-bottom: 30px;
+}
+
+.footer .footer-content .footer-links ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer .footer-content .footer-links ul i {
+    padding-right: 2px;
+    color: #FFFFFF;
+    font-size: 12px;
+    line-height: 1;
+}
+
+.footer .footer-content .footer-links ul li {
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+}
+
+.footer .footer-content .footer-links ul li:first-child {
+    padding-top: 0;
+}
+
+.footer .footer-content .footer-links ul a {
+    color: #FFFFFF !important;
+    transition: 0.3s;
+    display: inline-block;
+    line-height: 1;
+}
+
+.footer .footer-content .footer-links ul a:hover {
+    color: #FFFFFF !important;
+}
+
+.footer .footer-legal {
+    background: rgba(21, 67, 96);
+    padding: 30px 0;
+}
+
+.footer .footer-legal .credits {
+    padding-top: 4px;
+    font-size: 13px;
+    color: #FFFFFF;
+}
+
+.footer .footer-legal .credits a {
+    color: #FFFFFF;
+}
+
+.footer .footer-legal .social-links a {
+    font-size: 18px;
+    display: inline-block;
+    background: #FFFFFF;
+    color: #154360;
+    line-height: 1;
+    padding: 8px 0;
+    margin-right: 4px;
+    border-radius: 4px;
+    text-align: center;
+    width: 36px;
+    height: 36px;
+    transition: 0.3s;
+}
+
+.footer .footer-legal .social-links i {
+    color: #154360;
+}
+
+.footer .footer-legal .social-links a:hover {
+    background: #FFFFFF;
+    text-decoration: none;
+}

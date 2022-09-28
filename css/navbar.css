@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap');
+
+.navbar {
+    position: relative;
+    background: transparent;
+}
+
+.navbar-nav {
+    padding: 15px 0;
+    transition: all 0.5s;
+    z-index: 997;
+}
+
+.navbar .navbar-brand {
+    font-size: 32px;
+    font-weight: 300;
+    color: #154360;
+    font-family: 'Roboto', sans-serif;
+}
+
+.navbar .navbar-brand {
+    height: 100px;
+}
+
+.navbar .navbar-toggler {
+    color: #FFFFFF;
+    font-weight: bold;
+    background: #154360;
+    border-radius: 4px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    padding: 8px 23px;
+    transition: 0.3s;
+}
+
+.navbar .nav-link,
+.navbar .nav-link:focus {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 14px 20px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    color: #154360;
+    white-space: nowrap;
+    transition: 0.3s;
+    position: relative;
+}
+
+.navbar .nav-link:before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #154360;
+    visibility: hidden;
+    transition: all 0.3s ease-in-out 0s;
+    transform: scaleX(0);
+    transition: all 0.3s ease-in-out 0s;
+}
+
+.navbar .nav-link:hover:before,
+.navbar li:hover>.nav-link:before,
+.navbar .router-link-active:before {
+    visibility: visible;
+    transform: scaleX(0.7);
+}
+
+.navbar .nav-link:hover,
+.navbar .router-link-active,
+.navbar .router-link-active:focus,
+.navbar li:hover>.nav-link {
+    color: #154360;
+    font-weight: bold;
+}
+
+.navbar .btn-secondary {
+    color: #FFFFFF !important;
+    font-weight: bold;
+    background: #154360;
+    border-radius: 4px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    padding: 8px 23px;
+    transition: 0.3s;
+}
+
+.navbar .btn-secondary:focus {
+    color: #154360 !important;
+    background: #FFFFFF;
+}
+
+.navbar .btn-secondary:hover,
+.navbar .btn-secondary:focus:hover,
+.navbar .btn-secondary:focus:active {
+    color: #FFFFFF !important;
+    background: #154360;
+}
+
+.navbar .navbar-brand {
+    color: #154360 !important;
+    text-decoration: none !important;
+}
+
+.nav-item {
+    margin-right: 20px;
+}
+
+.sticked {
+    background-color: rgba(21, 67, 96) !important;
+    box-shadow: 0px 2px 20px rgba(21, 67, 96, 0.1);
+}
+
+.sticked .navbar-toggler {
+    color: #154360;
+    background: #FFFFFF;
+}
+
+.sticked a {
+    color: #FFFFFF !important;
+}
+
+.sticked a:hover {
+    color: #FFFFFF !important;
+}
+
+.sticked a:hover,
+.sticked .router-link-active,
+.sticked .router-link-active:focus,
+.sticked li:hover>a {
+    color: #FFFFFF !important;
+    font-weight: bold;
+}
+
+.sticked .navbar-brand {
+    color: #FFFFFF !important;
+}
+
+.sticked .btn-secondary,
+.sticked .btn-secondary:focus {
+    color: #154360 !important;
+    background: #FFFFFF !important;
+}
+
+.sticked .btn-secondary:hover,
+.sticked .btn-secondary:focus:hover,
+.sticked .btn-secondary:focus:active {
+    color: #154360 !important;
+}
+
+.sticked .nav-link:before {
+    background-color: #FFFFFF;
+}
+
+@media (max-width: 992px) {
+
+    .navbar .nav-link:before {
+        background-color: transparent;
+    }
+
+    .navbar-collapse {
+        background: #FFFFFF !important;
+    }
+
+    .sticked .navbar-collapse {
+        background: #154360 !important;
+    }
+
+    .navbar .navbar-brand {
+        height: 0;
+    }
+
+    .btn-contact {
+        margin-left: 14px;
+    }
+
+}

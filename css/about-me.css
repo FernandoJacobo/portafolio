@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap');
+
+.about-me {
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+#about-me .info-container {
+    display: flex;
+    flex-direction: row;
+}
+
+#about-me .img-about-me {
+    padding: 20px;
+    width: 40%;
+}
+
+#about-me .info-about-me {
+    padding: 20px;
+    width: 60%;
+}
+
+#about-me .info-about-me h3 {
+    color: #154360;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+#about-me .info-about-me .nav-pills {
+    border-bottom: 1px solid rgba(21, 67, 96, 0.2);
+}
+
+#about-me .info-about-me .nav-pills li+li {
+    margin-left: 40px;
+}
+
+#about-me .info-about-me .nav-link {
+    background: none;
+    font-size: 18px;
+    font-weight: 400;
+    color: #154360;
+    padding: 12px 0;
+    margin-bottom: -2px;
+    border-radius: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+#about-me .info-about-me .nav-link.active {
+    background: none;
+    border-bottom: 3px solid #154360;
+    color: #154360;
+    font-weight: bold;
+}
+
+#about-me .info-about-me .tab-content h4 {
+    font-size: 20px;
+    margin: 0;
+    font-weight: 700;
+    color: #154360;
+}
+
+#about-me .info-about-me .tab-content i {
+    font-size: 20px;
+    line-height: 0;
+    margin-right: 8px;
+    color: #154360;
+}
+
+#about-me .info-about-me .tab-content p {
+    color: #154360;
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+}
+
+#about-me .info-about-me .tab-content .skill {
+    padding: 10px;
+}
+
+/* .bg-html {
+    background: #E67E22 !important;
+}
+
+.bg-css {
+    background: #2E86C1 !important;
+}
+
+.bg-javascript {
+    background: #F1C40F !important;
+}
+
+.bg-vue {
+    background: #117864 !important;
+}
+
+.bg-php {
+    background: #AF7AC5 !important;
+}
+
+.bg-laravel {
+    background: #E74C3C !important;
+} */
+
+@media (max-width: 768px) {
+
+    #about-me .img-about-me,
+    #about-me .info-about-me {
+        width: 100%;
+    }
+
+    #about-me .img-about-me {
+        text-align: center;
+    }
+
+    #about-me .info-container {
+        flex-direction: column-reverse;
+        width: 100%;
+    }
+
+}

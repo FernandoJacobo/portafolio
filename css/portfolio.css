@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap');
+
+.portfolio {
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+#portfolio .portfolio-item {
+    padding: 10px;
+}
+
+#portfolio .portfolio-item .job-img {
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+#portfolio .portfolio-item .job-img img {
+    transition: 0.5s;
+    width: 100%;
+}
+
+#portfolio .portfolio-item:hover .job-img img {
+    transform: scale(1.1);
+}
+
+#portfolio .details {
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 8px;
+    box-shadow: 0px 0 25px rgba(27, 38, 49, 0.1);
+    margin: -70px 30px 0 30px;
+    padding: 50px 30px;
+    text-align: left;
+    transition: all ease-in-out 0.3s;
+}
+
+#portfolio .details .icon {
+    align-items: center;
+    background: #154360;
+    border: 6px solid #FFFFFF;
+    border-radius: 50px;
+    color: #FFFFFF;
+    display: flex;
+    font-size: 28px;
+    height: 72px;
+    justify-content: center;
+    left: calc(50% - 36px);
+    margin: 0;
+    margin-bottom: 20px;
+    position: absolute;
+    top: -36px;
+    transition: ease-in-out 0.3s;
+    width: 72px;
+}
+
+#portfolio .details h3 {
+    color: #154360;
+    font-weight: 700;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    margin: 10px 0 15px 0;
+    transition: ease-in-out 0.3s;
+    text-align: center;
+}
+
+#portfolio .details p {
+    color: #154360;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 0;
+    line-height: 24px;
+}
+
+#portfolio .service-item:hover .details h3 {
+    color: #154360;
+}
+
+#portfolio .service-item:hover .details .icon {
+    background: #FFFFFF;
+    border: 2px solid #154360;
+}
+
+#portfolio .details .url {
+    margin-top: 10px;
+    text-align: end;
+}
